@@ -15,5 +15,5 @@ spec:
         app: choney-deploy
     spec:
       containers:
-      - image: clhamo/rabbit:bhutan
+      - image: clhamo/rabbit:10
         name: pet
