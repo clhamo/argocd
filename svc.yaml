@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: choney-deploy
-  name: prod-svc
+  name: choney-svc
   #namespace: pet
 spec:
   ports:
