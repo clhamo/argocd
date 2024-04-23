@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   labels:
     app: pet-deploy
-  name: pet-deploy
+  name: choney-deploy
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: choney-deploy
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: choney-deploy
     spec:
       containers:
-      - image: cloudsihmar/newpet:13
+      - image: clhamo/rabbit:bhutan
         name: pet
